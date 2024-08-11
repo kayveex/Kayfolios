@@ -16,7 +16,7 @@ const Navbar = () => {
                         <li className="text-primaryWhite hover:text-secondaryWhite"><span className="px-2 text-primaryYellow">#</span>projects</li>
                     </a>
                     <a href="">
-                        <li className="text-primaryWhite hover:text-secondaryWhite"><span className="px-2 text-primaryYellow">#</span>about</li>
+                        <li className="text-primaryWhite hover:text-secondaryWhite"><span className="px-2 text-primaryYellow">#</span>skills</li>
                     </a>
                     <a href="">
                         <li className="text-primaryWhite hover:text-secondaryWhite"><span className="px-2 text-primaryYellow">#</span>contact</li>

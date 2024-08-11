@@ -10,7 +10,6 @@ const HeroSection = () => {
             <div className="flex flex-col w-1/2">
                 <div id="typing-text-hero" className="mt-[120px]">
                     <h1 className="text-primaryWhite text-4xl font-bold gradient-orange">Hi There, I'm</h1>
-                    {/* <h1 className="text-primaryWhite text-4xl font-bold">Kornelius Rhesa</h1> */}
                     <div className="text-primaryWhite text-4xl font-bold">
                         <Typewriter
                             options={{
@@ -21,34 +20,32 @@ const HeroSection = () => {
                             }}
                         />
                     </div>
-
                 </div>
                 <p className="text-secondaryWhite w-[385px] text-md mt-6">
                     For me, coding is the poetry of logic 
                     and creativity.
                 </p>
                 <div id="button-socmed" className="flex flex-row items-center mt-6">
-                    <a href="">
+                    <a target="_blank" href="https://drive.google.com/file/d/1FphxfsT7KQTEulHF5-0I83lP3iHH0pcU/view?usp=sharing">
                         <button type="button" className="py-2 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-primaryYellow text-primaryWhite hover:scale-110 disabled:pointer-events-none ">
                             Download My CV
                             <ArrowFatLineDown size={20} />
                         </button>
                     </a>
                     <div id="socmed-btn" className="flex flex-row gap-2 ml-6 text-primaryYellow">
-                        <a className="hover:scale-110" href="">
+                        <a className="hover:scale-110" target="_blank" href="https://www.linkedin.com/in/kornelius-rhesa/">
                             <LinkedinLogo size={28} weight="fill" />
                         </a>
-                        <a className="hover:scale-110" href="">
+                        <a className="hover:scale-110" target="_blank" href="https://github.com/kayveex">
                             <GithubLogo size={28} weight="fill" />
                         </a>
-                        <a className="hover:scale-110" href="">
+                        <a className="hover:scale-110" target="_blank" href="https://wa.me/6282110674993">
                             <WhatsappLogo size={28} />
                         </a>
-                        <a className="hover:scale-110" href="">
+                        <a className="hover:scale-110" target="_blank"  href="https://discord.com/users/243635732617494529">
                             <DiscordLogo size={28} />
                         </a>
                     </div>
-
                 </div>
             </div>
             <div className="flex flex-col w-1/2 items-center">
@@ -58,7 +55,6 @@ const HeroSection = () => {
                     <h2 className="text-secondaryWhite">Currently working on <span className="font-bold">Warskul Apps</span></h2>
                 </div>
             </div>
-
         </section>
     );
 

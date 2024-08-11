@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Foodbless App - Dicoding Capstone",
+        "description": "A web application that connects customers to restaurants and stores that have surplus unsold food.",
+        "technologies": ["NextJS", "ExpressJS", "MySQL", "RESTful API"],
+        "image": "/assets/FoodBless.png",
+        "url": "https://github.com/Foodbless-Dicoding"
+    },
+    {
+        "id": 2,
+        "name": "SIMBK SMKN 1 Purwakarta",
+        "description": "Web Application project to fulfill the final assignment for Microteaching course. Created with XP development stages.",
+        "technologies": ["Laravel", "MySQL"],
+        "image": "/assets/nepurs.jpg",
+        "url": "https://github.com/kayveex/NepurBKApp"
+    },
+    {
+        "id": 3,
+        "name": "TanyaLaraAja",
+        "description": "A Forum Website for Laravel Enthusiasts.",
+        "technologies": ["Laravel", "MySQL"],
+        "image": "/assets/tanyalara.jpg",
+        "url": "https://gitlab.com/kayveex/sanber47-kelompok7"
+    }
+]
