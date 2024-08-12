@@ -9,7 +9,7 @@ const HeroSection = () => {
         <section className="flex flex-row w-full h-[500px]">
             <div className="flex flex-col w-1/2">
                 <div id="typing-text-hero" className="mt-[120px]">
-                    <h1 className="text-primaryWhite text-4xl font-bold gradient-orange">Hi There, I'm</h1>
+                    <h1 className="text-primaryWhite text-4xl font-bold gradient-orange">Hi There, I am</h1>
                     <div className="text-primaryWhite text-4xl font-bold">
                         <Typewriter
                             options={{
