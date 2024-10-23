@@ -6,9 +6,9 @@ import Typewriter from 'typewriter-effect';
 const HeroSection = () => {
 
     return (
-        <section className="flex flex-row w-full h-[500px]">
-            <div className="flex flex-col w-1/2">
-                <div id="typing-text-hero" className="mt-[120px]">
+        <section id="home_sec" className="flex flex-col lg:flex-row relative w-full min-h-[500px]">
+            <div className="flex flex-col w-full lg:w-1/2">
+                <div id="typing-text-hero" className="mt-[80px] lg:mt-[120px]">
                     <h1 className="text-primaryWhite text-4xl font-bold gradient-orange">Hi There, I am</h1>
                     <div className="text-primaryWhite text-4xl font-bold">
                         <Typewriter
@@ -21,18 +21,18 @@ const HeroSection = () => {
                         />
                     </div>
                 </div>
-                <p className="text-secondaryWhite w-[385px] text-md mt-6">
+                <p className="text-secondaryWhite w-full lg:w-[385px] text-md mt-6">
                     For me, coding is the poetry of logic 
                     and creativity.
                 </p>
-                <div id="button-socmed" className="flex flex-row items-center mt-6">
+                <div id="button-socmed" className="flex flex-col lg:flex-row items-center mt-6 gap-4 lg:gap-0">
                     <a target="_blank" href="https://drive.google.com/file/d/1FphxfsT7KQTEulHF5-0I83lP3iHH0pcU/view?usp=sharing">
-                        <button type="button" className="py-2 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-primaryYellow text-primaryWhite hover:scale-110 disabled:pointer-events-none ">
+                        <button type="button" className="py-2 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-primaryYellow text-primaryWhite hover:scale-110 disabled:pointer-events-none">
                             Download My CV
                             <ArrowFatLineDown size={20} />
                         </button>
                     </a>
-                    <div id="socmed-btn" className="flex flex-row gap-2 ml-6 text-primaryYellow">
+                    <div id="socmed-btn" className="flex flex-row gap-2 lg:ml-6 text-primaryYellow">
                         <a className="hover:scale-110" target="_blank" href="https://www.linkedin.com/in/kornelius-rhesa/">
                             <LinkedinLogo size={28} weight="fill" />
                         </a>
@@ -48,11 +48,11 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col w-1/2 items-center">
-                <img className="w-[400px] mt-[40px]" src="/assets/head_pic.png" alt="hero"/>
-                <div className="flex flex-row items-center border gap-2 px-10  border-primaryWhite h-[40px]">
+            <div className="flex flex-col w-full lg:w-1/2 items-center">
+                <img className="w-full lg:w-[400px] mt-[20px] lg:mt-[40px]" src="/assets/head_pic.png" alt="hero"/>
+                <div className="flex flex-row items-center border gap-2 px-4 lg:px-10 border-primaryWhite h-[40px]">
                     <div id="dotsquare" className="bg-primaryYellow w-[16px] h-[16px]"></div>
-                    <h2 className="text-secondaryWhite">Currently working on <span className="font-bold">Warskul Apps</span></h2>
+                    <h2 className="text-secondaryWhite text-xs md:text-sm lg:text-md  text-center lg:text-left">Currently working on <span className="font-bold">SEAQIS Monev</span></h2>
                 </div>
             </div>
         </section>

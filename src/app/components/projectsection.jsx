@@ -8,8 +8,6 @@ const ProjectSection = () => {
     
 
     const [data, setData] = useState([]);
-    console.log(data);
-    
 
     useEffect(() => {
         fetch('/data-static/projects.json')
@@ -27,9 +25,6 @@ const ProjectSection = () => {
                         return <ProjectCard key={index} projectData={project} />
                     })}
                 </div>
-
-                
-
             </section>
         
         </>

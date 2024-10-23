@@ -8,13 +8,16 @@ import ContactSection from "./components/contactsection";
 
 export default function Home() {
   return (
-    <main className="bg-background w-full h-full px-20">
-      <Navbar />
-      <HeroSection />
-      <QuotesSection />
-      <ProjectSection />
-      <SkillSection />
-      <ContactSection />  
+    <main className="bg-background w-full h-full">
+      <Navbar  />
+      <div className="px-20 w-full h-full">
+        <HeroSection />
+        <QuotesSection />
+        <ProjectSection />
+        <SkillSection />
+        <ContactSection />  
+      </div>
+
     </main>
   );
 }
